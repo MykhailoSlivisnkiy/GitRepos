@@ -1,0 +1,312 @@
+.navbar-fixed-left {
+    width: 230px;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+}
+
+
+a {
+    background: 0 0;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 28px;
+    line-height: 20px;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+    float: none;  /* Cancel default li float: left */
+    width: 139px;
+}
+
+.navbar-fixed-left + .container {
+    padding-left: 160px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+    margin-top: -50px;
+    margin-left: 140px;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.nav_picture > img {
+    float: right;
+    height: 43px;
+    width: 43px;
+    margin-top: -40px;
+}
+
+.form-control {
+    padding: 16px 142px;
+}
+
+.form-inline .form-control {
+    padding-left: 2px;
+}
+
+.navbar-brand {
+    padding-right: 60px;
+}
+
+header {
+    margin-top: 20px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.headForm {
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.section > img {
+    height: 280px;
+    width: 276px;
+    margin-top: 100px;
+    margin-left: -65px;
+    border-radius: 130px;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: #428bca;
+    /* color: inherit; */
+}
+
+div {
+    border-radius: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.linke{
+    color: black;
+}
+
+.empty {
+    height: 40px;
+}
+
+.friends_message {
+    width: 20%;
+    margin-top: 120px;
+    margin-right: 20px;
+    /* margin-bottom: 20px; */
+    float: left;
+    margin-left: -20px;
+}
+
+.btn_friends {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.btn_message {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.emt {
+    margin-top: 50px;
+}
+
+
+.navbar-inverse {
+    border-color: #222;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #428bca;
+    margin-left: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #428bca;
+    margin-left: 15px;
+}
+
+.navbar-inverse {
+    border-color: #222;
+    position: fixed;
+    margin-top: -52px;
+}
+
+.section {
+    float: left;
+    width: 25%;
+    height: 300px;
+    margin-right: 2px;
+}
+
+.aside {
+    float: right;
+    width: 74%;
+    height: 280px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.userName {
+    padding-top: 10px;
+}
+
+p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+}
+
+h4, .h4 {
+    font-size: 18px;
+    margin-left: 5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.userInformationLeft {
+    float: left;
+    width: 10%;
+}
+
+.userInformationRight {
+    float: right;
+    width: 80%;
+}
+
+.fasting {
+    margin-bottom: 50px;
+    float: right;
+    width: 74%;
+    height: 100%;
+    background-color: blue;
+}
+
+.image > img {
+    height: 80px;
+    vertical-align: middle;
+    float: left;
+    width: 90px;
+    margin-right: 20px;
+    margin-left: 5px;
+    border-radius: 40px;
+}
+
+.navbar-inverse {
+    margin-top: 62px;
+}
+
+.fasting_username > h5{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+}
+
+.nav_head {
+    background-color: #222;
+    position: fixed;
+    width: 100%;
+}
+
+.post {
+    margin-bottom: 100px;
+}
+
+.post_image {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.share {
+    float: left;
+}
+
+.userSaveFiles {
+    float: left;
+    background-color: blueviolet;
+    height: 100%;
+    margin-top: 240px;
+    width: 27%;
+    margin-left: -260px;
+}
+
+.photo_group > img {
+    width: 30%;
+    float: left;
+    height: 80px;
+    margin-top: 2px;
+    margin-left: 7px;
+    margin-bottom: 15px;
+}
+
+.like {
+    float: right;
+}
+
+.photo_text > h5{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.music_group > p {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.MyForm {
+    width: 757px;
+    height: 264px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    float: left;
+    background-color: brown;
+}
+
+.formText {
+    margin: 5px 4px 10px 4px;
+}
+
+input[type=file] {
+    display: block;
+    visibility: hidden;
+}
+
+.chooseFile {
+    color: #fff;
+    margin-left: 5px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    margin-left: 6px;
+}

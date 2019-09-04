@@ -1,0 +1,215 @@
+.custom-file-label > img {
+    height: 200px;
+    width: 100%;
+    margin-top: 120px;
+    float: left;
+}
+
+label {
+    width: 20%;
+    padding-right: 0px;
+    display: inline-block;
+    font-weight: 600;
+    float: left;
+}
+
+#formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+#formFooter {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.friends_message {
+    width: 60%;
+    margin-left: 300px;
+    background-color: #5fbae9;
+    margin-bottom: -50px;
+    height: 100px;
+}
+
+.emty {
+    height: 120px;
+}
+
+.messages {
+    height: 605px;
+    width: 70%;
+    margin-left: 300px;
+    background-color: #92badd;
+}
+
+textarea.form-control {
+    position: absolute;
+    height: auto;
+    float: left;
+    width: 1080px;
+    margin-top: -20px;
+    margin-left: -30px;
+}
+
+.friends_message_img > img {
+    width: 10%;
+    height: 70px;
+    margin-left: 1%;
+    margin-top: 2%;
+    float: left;
+}
+
+
+.friends_message_name > p {
+    padding-top: 2%;
+    margin-left: 15%;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #39ace7;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+input[type=text] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+}
+
+input[type=date] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    height: 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 40px;
+    width: 25%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+}
+
+input[name="first_name"] {
+    width: 30%;
+    margin-left: 50px;
+    float: left;
+    margin-top: -2px;
+}
+
+input[name="last_name"] {
+    width: 30%;
+    float: right;
+    margin-top: -2px;
+}
+
+input[name="quote"] {
+    float: right;
+    width: 740px;
+    margin-top: 84px;
+}
+
+input[name="city"] {
+    width: 30%;
+}
+
+input[name="city"] {
+    width: 40%;
+    margin-top: 30px;
+    margin-left: -2px;
+    margin-bottom: 40px;
+    margin-right: 50pc;
+}
+
+input[name="info"] {
+    margin-bottom: 40px;
+    margin-left: -2px;
+}
+
+.btnSave {
+    background-color: black;
+    float: none;
+}
+
+.firstName {
+    margin-top: 120px;
+}
+
+.fadeIn {
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+.custom-file-label:hover > img{
+    opacity: .5;
+}
+
+
+
+
+
+.fadeIn.fourth {
+    margin-left: 870px;
+    width: 100px;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+
